@@ -6,7 +6,8 @@ BERT (Bidirectional Encoder Representations from Transformers) computes vector-s
 
 ## Why
 
-Here I have used a variant of BERT (Small BERT) which has the same general architecture but fewer and/or smaller Transformer blocks, which lets us explore tradeoffs between speed, size and quality. I have also fine-tuned it to classify IMDb movie reviews (plain-text) into positive and negative classes based on the text of the review, thus performing sentiment analysis. The requirements to run the [notebook](Notebook.ipynb) can be found in the corresponding [file](requirements.txt).
+Here I have used a variant of BERT (Small BERT) which has the same general architecture but fewer and/or smaller Transformer blocks, which lets us explore tradeoffs between speed, size and quality. I have also fine-tuned it to classify IMDb movie reviews (plain-text) into positive and negative classes based on the text of the review, thus performing sentiment analysis. The requirements to run the [notebook](Notebook.ipynb) can be found in the corresponding [file](requirements.txt) and can be installed with 
+`pip3 install -r requirements.txt`
 
 ## How
 
